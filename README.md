@@ -52,3 +52,6 @@ streamlit run webcam.py
 ### Rename mediapipe face 3d landmark id
 ![Demo](https://blogger.googleusercontent.com/img/a/AVvXsEjdbCan_x9G7ear-FbtVb2SUJfswD2zSrQWGVQdkL9lG-4jqJjOtjHp9LvCOCdpENu23HxuScGo19SzlLFof7AmXLN4545tNjDjWpJIJ_3Jb3TSUi_4TRe_aQEN0ZB-TGJUw_aZVnsIOjjwC-8oMKAgf6HCVK2Knc5czK7izE-CgX3qTDlKNDVUjW11Tg=s800)
 <br>
+
+### To use your own mask make the csv file from here:
+https://www.makesense.ai/
