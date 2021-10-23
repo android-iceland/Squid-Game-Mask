@@ -1,4 +1,4 @@
-# Squid-Game-Mask
+# Squid Game Mask
 Run on Google Colab <br>
 <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/android-iceland/Squid-Game-Mask/blob/main/Squid_Game_Face_Mask.ipynb)
