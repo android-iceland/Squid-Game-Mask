@@ -15,6 +15,11 @@ Run on Google Colab <br>
 ![Demo](https://blogger.googleusercontent.com/img/a/AVvXsEgfOgP0l29QnLgtsqS6HXwtyVdH5CatQpAebhaQIsiUMTwoOkSq6CfU1l7YHWuxgoUEhx79mfBVAS1U7Ge2lu_nRfAimllp_Jv_23rpm3publO1R-GEqALt4PQG2LMg-8FhAxjFXo0kBE4Stqk6cSTCqY1dDeaLCuUJ0K509tFu0OsAwY3n4iqcl9ik5A=s600)
 <br>
 
+## Install required packages
+```
+pip install -r requirements.txt
+```
+
 ## Run streamlit webapp. Drag and drop your video and save the video.
 ```
 streamlit run app.py --server.maxUploadSize=5000
