@@ -19,8 +19,6 @@ Run on Google Colab <br>
 ```
 streamlit run app.py --server.maxUploadSize=5000
 ```
-
-## Web App
 ![Demo](https://blogger.googleusercontent.com/img/a/AVvXsEjhJx0N70UnPSgr_OTNLCzRGAL0WsT_kE_Lnh1BQzE1arORUTFeO8DG4acgVRIqapMOnU_gM9Qoy3Q_Xnv301TyC2iHMOO15swD8PBGCn34mmFA8yf0Gb5Mc73RK7v0FmKD9NdMqktPUarSsFFAnwsLY_foyvAcJOA6rLjzZwUsvgfNV6XCEtyFTPIcfA=s600)
 <br>
 ### Give face detection and tracking confidence above 50%
@@ -34,8 +32,13 @@ streamlit run app.py --server.maxUploadSize=5000
 
 ## For webcam
 ```
-python webcam.py
+streamlit run webcam.py
 ```
+
+![Demo](https://blogger.googleusercontent.com/img/a/AVvXsEiHO9j2ai9cltdIgFt_YPgsg2Ef1BxR4QlfSsbVjqpLmNqApsQ_2dCDcHFpvcOioO3h74NUGTH9x7ky_gx4mtZnEotB6uhl58YnJulvi0av51fzxhYyC-f4dQSkf4aoyWnVk9mkfwnYJROMB3DL7HBu-uodhC2lsdNkmvznhd0iEhHC47XEb9-ZDau7zg=s600)
+<br>
+
+
 
 ### Mediapipe face 3d landmark id
 ![Demo](https://blogger.googleusercontent.com/img/a/AVvXsEhD4FivyThH5Yt6vWI4Aq7APou8Jz_jRuw9C5B10eZqyew-R4EQGh110e9Sow9eTfNinV5yVK5eC2drEim70Xu8pdEe25ayMahvsLi8jKCB9EEIXE7CdhkvgCvN87VOJpgptx_LsxJDJXrmEf4tvspixj6UwZieDgtMdvpW0rdg3DGtKA7-GZUB5pfHVw=s600)
