@@ -314,8 +314,10 @@ if __name__ == "__main__":
         min_tracking_confidence=minTrackingCon,
     )
 
+
+    mask = ("Villain Mask", "Circle Mask","Red Mask","Blue Mask","Preditor Mask", "Add Your Own Mask")
     select_mask = st.selectbox(
-        "Select your mask", ("Villain Mask", "Circle Mask","Red Mask","Blue Mask", "Add Your Own Mask")
+        "Select your mask", mask
     )
   
     if select_mask == "Villain Mask":
@@ -329,8 +331,10 @@ if __name__ == "__main__":
         csv_path = "./assets/red_mask.csv"  
     if select_mask == "Blue Mask":
         mask_path = "./assets/bluemask.png"
-        csv_path = "./assets/blue_mask.csv"     
-        
+        csv_path = "./assets/blue_mask.csv"  
+    if select_mask == "Preditor Mask":
+        mask_path = "./assets/preditor.png"
+        csv_path = "./assets/preditor.csv"   
         
     if select_mask == "Add Your Own Mask":
         uploaded_png_file = st.file_uploader("Choose an mask png image.", type="png")
