@@ -277,8 +277,8 @@ def main(mask_up, mask_down, flip_the_video, mask_path, csv_path,save_video):
 
 if __name__ == "__main__":
 
-    mask = ("Villain Mask", "Circle Mask","Red Mask","Blue Mask", "Add Your Own Mask")
-    select_mask=mask[2]
+    mask = ("Villain Mask", "Circle Mask","Red Mask","Blue Mask","Preditor Mask", "Add Your Own Mask")
+    select_mask=mask[4]
     if select_mask == "Villain Mask":
         mask_path = "./assets/villain_mask.png"
         csv_path = "./assets/villain_mask.csv"
@@ -290,7 +290,10 @@ if __name__ == "__main__":
         csv_path = "./assets/red_mask.csv"  
     if select_mask == "Blue Mask":
         mask_path = "./assets/bluemask.png"
-        csv_path = "./assets/blue_mask.csv"     
+        csv_path = "./assets/blue_mask.csv"  
+    if select_mask == "Preditor Mask":
+        mask_path = "./assets/preditor.png"
+        csv_path = "./assets/preditor.csv"   
     save_video=False
     mask_up = 10
     mask_down = 8
